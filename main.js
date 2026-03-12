@@ -1,3 +1,4 @@
+
 // Fare Matrix Discount
 let regularFare = 50; // Base fare in pesos
 let discountPercentage = 0.20; // 20% discount
@@ -16,9 +17,10 @@ function getDiscount() {
         </div>
     `;
 }
+    
 
 // Fare Matrix Discount
-let regluarFare = 50; // Base fare in pesos
+// remove unused typo variable; regularFare defined earlier above
 function getRegularFare() {
     
     document.getElementById("square-regular").innerHTML = `
